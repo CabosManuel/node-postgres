@@ -1,6 +1,6 @@
 import express from "express";
 import { validatorHandler } from "../middlewares/validator.handler.js";
-import UserService from "../services/users.service.js";
+import { UserService } from "../services/users.service.js";
 import {
   createUserSchema,
   updateUserSchema,

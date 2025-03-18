@@ -1,4 +1,4 @@
-import boom from "boom";
+import boom from "@hapi/boom";
 
 export default class CategoryService {
   constructor() {}
