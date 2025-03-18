@@ -6,7 +6,7 @@ export default class CategoryService {
     return data;
   }
 
-  async find() {
+  async getAll() {
     return [];
   }
 

@@ -6,7 +6,7 @@ export default class OrderService {
     return data;
   }
 
-  async find() {
+  async getAll() {
     return [];
   }
 
